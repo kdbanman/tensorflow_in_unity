@@ -1,1 +1,16 @@
-See https://forum.unity3d.com/threads/c-6-0.314297/page-7 for the CSharp vNext Support stuff.
+Proof of concept for running [TensorFlow](tensorflow.org) in Unity.
+
+### Requirements
+
+A Unity with .NET 4.6 equivalency support is necessary.
+
+Uses TensorFlowSharp to access TensorFlow.  (Windows build confirmed working with TensorFlowSharp 1.2.2)
+
+1. Managed DLL must be present (TensorFlowSharp.dll)
+2. Native DLLs must be present (libtensorflow.* for target platform)
+3. Managed DLL needs System.ValueTuple, which came from the CSharp vNext Support Unity package. (Windows build confirmed working with CSharp70Support 3.2.3)
+
+1 and 2 came from the TensorFlowSharp nuget package, extracted as a RAR.
+
+3 came from some helpful fellow on bitbucket.  See https://forum.unity3d.com/threads/c-6-0.314297/page-7
+
