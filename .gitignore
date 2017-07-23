@@ -1,3 +1,18 @@
+Assets/TensorFlowSharp.dll
+Assets/TensorFlowSharp.dll.meta
+Assets/TensorFlowSharp.pdb
+Assets/TensorFlowSharp.pdb.meta
+Assets/TensorFlowSharp.xml
+Assets/TensorFlowSharp.xml.meta
+Assets/libtensorflow.dll
+Assets/libtensorflow.dll.meta
+Assets/libtensorflow.dylib
+Assets/libtensorflow.dylib.meta
+Assets/libtensorflow.so
+Assets/libtensorflow.so.meta
+Assets/System.ValueTuple.dll
+Assets/System.ValueTuple.dll.meta
+
 .vscode
 
 /[Ll]ibrary/
