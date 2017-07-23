@@ -586,7 +586,7 @@ PlayerSettings:
   cloudServicesEnabled:
     UNet: 1
   facebookSdkVersion: 7.9.4
-  apiCompatibilityLevel: 2
+  apiCompatibilityLevel: 3
   cloudProjectId: 16d79c2d-e18e-4654-aca4-6ab33ed43f8f
   projectName: emc
   organizationId: kdbanman
